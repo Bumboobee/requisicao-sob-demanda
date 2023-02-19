@@ -1,0 +1,37 @@
+.container {
+    padding: 50px 5%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 30px;
+}
+
+.grid>article {
+    border: 1px solid #ccc;
+    height: 450px;
+    max-height: 500px;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.grid .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.header-card, .footer-card {
+    display:flex; 
+    justify-content: space-between;            
+    align-items: center;
+}
+
+.footer-card {
+    align-items: normal; 
+}
+
+.badge {
+    white-space: break-spaces !important;
+}
