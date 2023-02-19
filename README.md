@@ -31,5 +31,3 @@ npm start
 | **[csvtojson](https://www.npmjs.com/package/csvtojson)**                          | **[Moment](https://www.npmjs.com/package/moment)**     |
 
 </div>
-
-## Como ficou
